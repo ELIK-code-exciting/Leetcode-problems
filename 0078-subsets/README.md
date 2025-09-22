@@ -20,6 +20,13 @@
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
+Performance
+
+| Metric        | Value                 |
+|---------------|------------------------|
+| **Runtime**   | 0 ms (beats 100.00%)     |
+| **Memory**    | 10.23 MB (beats 35.97%) |
+
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10</code></li>
 	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
