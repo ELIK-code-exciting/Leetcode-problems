@@ -10,7 +10,7 @@ public:
         }
     }
 
-    // [] [1] [2] [3] [1,2] [1,3] [2,3] [1,2,3].
+    // [] [1] [2] [3] [1,2] [1,3] [2,3] [1,2,3]
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> itog;
         vector<int> curr;
