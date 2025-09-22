@@ -38,9 +38,9 @@ See file: [`solution.cpp`](solution.cpp)
 
 ---
 
-## 📊 Performance
+##Performance
 
 | Metric        | Value                 |
 |---------------|------------------------|
-| **Runtime**   | 3 ms (beats 31.4%)     |
-| **Memory**    | 10.2 MB (beats 35.97%) |
+| **Runtime**   | 0 ms (beats 100.00%)     |
+| **Memory**    | 10.54 MB (beats 68.53%) |
