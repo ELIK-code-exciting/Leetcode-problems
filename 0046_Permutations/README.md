@@ -32,12 +32,6 @@ Given an array `nums` of distinct integers, return all the possible permutations
 
 ---
 
-##Solution
-
-See file: [`0046_Permutations.cpp`](solution.cpp)
-
----
-
 ##Performance
 
 | Metric        | Value                 |
