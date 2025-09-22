@@ -13,6 +13,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0090-subsets-ii) |
@@ -20,6 +21,7 @@
 ## Array
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0090-subsets-ii) |
