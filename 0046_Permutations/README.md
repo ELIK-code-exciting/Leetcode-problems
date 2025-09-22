@@ -24,7 +24,7 @@ Given an array `nums` of distinct integers, return all the possible permutations
 
 ---
 
-##Constraints
+Constraints
 
 - `1 <= nums.length <= 6`
 - `-10 <= nums[i] <= 10`
@@ -32,7 +32,7 @@ Given an array `nums` of distinct integers, return all the possible permutations
 
 ---
 
-##Performance
+Performance
 
 | Metric        | Value                 |
 |---------------|------------------------|
