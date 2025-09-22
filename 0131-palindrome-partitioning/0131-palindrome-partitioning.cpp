@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isPaLinDrom(string s, int left, int right) {
+    bool isPaLinDrom(string s, int left, int right) { // function is checking for palnidroms.
         while (left < right) {
             if (s[left] != s[right]) return false;
             left++;
@@ -15,7 +15,7 @@ public:
         }
 
         for (int end = start; end < s.size(); end++) {
-            if (isPaLinDrom(s, start, end)) {
+            if (isPaLinDrom(s, start, end)) { // We go into recursion to check the remaining symbols/combinations of symbols.
                 curr.push_back(s.substr(start, end - start + 1));
                 backtrack_131(palindromes, curr, s, end + 1);
                 curr.pop_back();
