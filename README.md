@@ -4,6 +4,7 @@
 ## String
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0079-word-search](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0131-palindrome-partitioning) |
 ## Dynamic Programming
@@ -13,6 +14,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0040-combination-sum-ii](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0079-word-search) |
@@ -38,4 +40,8 @@
 |  |
 | ------- |
 | [0079-word-search](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0079-word-search) |
+## Hash Table
+|  |
+| ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 <!---LeetCode Topics End-->
