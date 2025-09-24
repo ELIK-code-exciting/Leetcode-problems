@@ -1,39 +1,45 @@
 class Solution {
 public:
-    void backtrack_51(vector<vector<string>>& itog, vector<string>& board, unordered_set<int>& cols, unordered_set<int>& diags1, unordered_set<int>& diags2, int n, int row) {
+    vector<vector<string>> solveNQueens(int n) {
+        vector<vector<string>> result;
+        vector<string> board(n, string(n, '.'));
+        
+        vector<bool> cols(n, false);               // col ∈ [0, n)
+        vector<bool> diag1(2 * n - 1, false);      // row - col + (n - 1) ∈ [0, 2n-2]
+        vector<bool> diag2(2 * n - 1, false);      // row + col ∈ [0, 2n-2]
+
+        backtrack(0, n, board, result, cols, diag1, diag2);
+        return result;
+    }
+
+private:
+    void backtrack(int row, int n, vector<string>& board,
+                   vector<vector<string>>& result,
+                   vector<bool>& cols,
+                   vector<bool>& diag1,
+                   vector<bool>& diag2) {
         if (row == n) {
-            itog.push_back(board);
+            result.push_back(board);
             return;
         }
 
-        for (int col = 0; col < n; col++) {
-            int d1 = row - col;
+        for (int col = 0; col < n; ++col) {
+            int d1 = row - col + (n - 1);  // смещение, чтобы индекс ≥ 0
             int d2 = row + col;
 
-            if (cols.count(col) || diags1.count(d1) || diags2.count(d2)) {
+            if (cols[col] || diag1[d1] || diag2[d2]) {
                 continue;
             }
 
+            // Ставим ферзя
             board[row][col] = 'Q';
-            cols.insert(col);
-            diags1.insert(d1);
-            diags2.insert(d2);
+            cols[col] = diag1[d1] = diag2[d2] = true;
 
-            backtrack_51(itog, board, cols, diags1, diags2, n, row + 1);
+            backtrack(row + 1, n, board, result, cols, diag1, diag2);
 
+            // Backtrack
             board[row][col] = '.';
-            cols.erase(col);
-            diags1.erase(d1);
-            diags2.erase(d2);
+            cols[col] = diag1[d1] = diag2[d2] = false;
         }
-    }
-    vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> itog;
-        vector<string> board (n, string(n, '.'));
-        unordered_set<int> cols;
-        unordered_set<int> diags1;
-        unordered_set<int> diags2;
-        backtrack_51(itog, board, cols, diags1, diags2, n, 0);
-        return itog;
     }
 };
