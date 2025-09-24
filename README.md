@@ -16,6 +16,7 @@
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0040-combination-sum-ii](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0090-subsets-ii) |
@@ -24,6 +25,7 @@
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0040-combination-sum-ii) |
+| [0051-n-queens](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0090-subsets-ii) |
