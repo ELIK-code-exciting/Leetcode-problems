@@ -1,15 +1,13 @@
 class KthLargest {
 private:
     int k;
-    priority_queue<int, vector<int>, greater<int>> minHeap; // мин-куча
+    priority_queue<int, vector<int>, greater<int>> minHeap;
 
 public:
     KthLargest(int k, vector<int>& nums) : k(k) {
-        // Предзаполняем кучу k раз INT_MIN
         for (int i = 0; i < k; ++i) {
             minHeap.push(INT_MIN);
         }
-        // Теперь добавляем все реальные числа
         for (int num : nums) {
             add(num);
         }
