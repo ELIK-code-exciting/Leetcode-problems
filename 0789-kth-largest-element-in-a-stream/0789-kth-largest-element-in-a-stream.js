@@ -1,9 +1,8 @@
 class KthLargest {
     constructor(k, nums) {
         this.k = k;
-        this.minHeap = []; // Используем массив для имитации min-кучи
+        this.minHeap = [];
 
-        // Инициализируем кучу, добавляя начальные числа
         for (const num of nums) {
             this.add(num);
         }
@@ -15,21 +14,16 @@ class KthLargest {
      * @returns {number} - k-й по величине элемент.
      */
     add(val) {
-        // Добавляем элемент в кучу, если:
-        // 1. Размер кучи меньше k.
-        // 2. Новое значение больше самого маленького элемента в куче (minHeap.top()).
         if (this.minHeap.length < this.k || this.minHeap[0] < val) {
-            this.minHeap.push(val); // Добавляем новый элемент
-            this.bubbleUp(this.minHeap.length - 1); // Восстанавливаем свойство кучи (вверх)
+            this.minHeap.push(val); 
+            this.bubbleUp(this.minHeap.length - 1); 
 
-            // Если размер кучи стал больше k, удаляем наименьший элемент
             if (this.minHeap.length > this.k) {
-                this.swap(0, this.minHeap.length - 1); // Меняем местами корень с последним элементом
-                this.minHeap.pop(); // Удаляем последний элемент (который был корнем)
-                this.bubbleDown(0); // Восстанавливаем свойство кучи (вниз)
+                this.swap(0, this.minHeap.length - 1);
+                this.minHeap.pop(); 
+                this.bubbleDown(0); 
             }
         }
-        // Возвращаем самый маленький элемент в куче, который является k-м по величине
         return this.minHeap[0];
     }
 
