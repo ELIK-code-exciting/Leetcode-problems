@@ -29,7 +29,7 @@ var lastStoneWeight = function(stones) {
     }
 
     /**
-     * Возвращает максимальный элемент без удаления
+     * Возвращает максимальный элемент без удаления.
      * @returns {number}
      */
     function peek() {
@@ -38,7 +38,7 @@ var lastStoneWeight = function(stones) {
 
     /**
      * Перемещает элемент вверх по куче, пока свойство макс-кучи не выполнено.
-     * @param {number} index - Индекс элемента.
+     * @param {number} index - Индекс элемента
      */
     function bubbleUp(index) {
         while (index > 0) {
