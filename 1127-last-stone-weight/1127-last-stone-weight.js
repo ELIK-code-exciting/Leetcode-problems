@@ -16,7 +16,7 @@ var lastStoneWeight = function(stones) {
 
     /**
      * Извлекает максимальный элемент из кучи.
-     * @returns {number} - Максимальный элемент.
+     * @returns {number} - Максимальный элемент
      */
     function extractMax() {
         if (maxHeap.length === 0) return null;
