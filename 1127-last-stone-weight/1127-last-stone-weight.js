@@ -3,7 +3,6 @@
  * @return {number}
  */
 var lastStoneWeight = function(stones) {
-    // Макс-куча: корень — наибольший элемент
     const maxHeap = [];
 
     /**
@@ -24,7 +23,7 @@ var lastStoneWeight = function(stones) {
         if (maxHeap.length === 1) return maxHeap.pop();
 
         const max = maxHeap[0];
-        maxHeap[0] = maxHeap.pop(); // Перемещаем последний элемент в корень
+        maxHeap[0] = maxHeap.pop(); 
         bubbleDown(0);
         return max;
     }
@@ -89,18 +88,17 @@ var lastStoneWeight = function(stones) {
         [maxHeap[i], maxHeap[j]] = [maxHeap[j], maxHeap[i]];
     }
 
-    // Заполняем кучу начальными камнями
     for (const stone of stones) {
         insert(stone);
     }
 
     // Сталкиваем камни, пока не останется 0 или 1
     while (maxHeap.length > 1) {
-        const y = extractMax(); // самый тяжёлый
-        const x = extractMax(); // второй по тяжести
+        const y = extractMax(); 
+        const x = extractMax(); 
 
         if (x !== y) {
-            insert(y - x); // остаётся разница
+            insert(y - x); 
         }
         // если x === y — оба уничтожаются, ничего не добавляем
     }
