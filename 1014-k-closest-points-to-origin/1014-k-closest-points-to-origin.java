@@ -5,6 +5,6 @@ class Solution {
             int distB = b[0] * b[0] + b[1] * b[1];
             return Integer.compare(distA, distB);
         });
-        return Arrays.copyOfRange(points, 0, key);
+        return Arrays.copyOfRange(points, 0, key); //,.
     }
 }
