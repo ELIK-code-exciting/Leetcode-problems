@@ -29,6 +29,7 @@
 | [0078-subsets](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0090-subsets-ii) |
+| [1014-k-closest-points-to-origin](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/1127-last-stone-weight) |
 ## Bit Manipulation
 |  |
@@ -63,6 +64,7 @@
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1014-k-closest-points-to-origin](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/1127-last-stone-weight) |
 ## Binary Tree
 |  |
@@ -72,4 +74,24 @@
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/0789-kth-largest-element-in-a-stream) |
+## Math
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/1014-k-closest-points-to-origin) |
+## Divide and Conquer
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/1014-k-closest-points-to-origin) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/1014-k-closest-points-to-origin) |
+## Sorting
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/ELIK-code-exciting/Leetcode-problems/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
